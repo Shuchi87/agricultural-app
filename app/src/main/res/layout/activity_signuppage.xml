@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bb"
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="36sp"
+            android:textColor="#ffff"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.116" />
+
+        <EditText
+            android:id="@+id/conpass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/security_w"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#fff"
+            app:layout_constraintEnd_toEndOf="@+id/regpass"
+            app:layout_constraintStart_toStartOf="@+id/regpass"
+            app:layout_constraintTop_toBottomOf="@+id/regpass" />
+
+        <EditText
+            android:id="@+id/regpass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/security_w"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password (at least 6 characters)"
+
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#fff"
+            app:layout_constraintEnd_toEndOf="@+id/loginemail"
+            app:layout_constraintStart_toStartOf="@+id/loginemail"
+            app:layout_constraintTop_toBottomOf="@+id/loginemail" />
+
+        <EditText
+            android:id="@+id/loginemail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/email_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#fff"
+            app:layout_constraintEnd_toEndOf="@+id/useramel"
+            app:layout_constraintStart_toStartOf="@+id/useramel"
+            app:layout_constraintTop_toBottomOf="@+id/useramel" />
+
+        <EditText
+            android:id="@+id/useramel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/person_w"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="UserName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#fff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/Reg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_bg"
+            android:textSize="25sp"
+            android:text="Register"
+            app:layout_constraintEnd_toEndOf="@+id/conpass"
+            app:layout_constraintStart_toStartOf="@+id/conpass"
+            app:layout_constraintTop_toBottomOf="@+id/conpass" />
+
+        <TextView
+            android:id="@+id/Alaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="You have already an account? "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/Reg"
+            app:layout_constraintStart_toStartOf="@+id/Reg"
+            app:layout_constraintTop_toBottomOf="@+id/Reg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

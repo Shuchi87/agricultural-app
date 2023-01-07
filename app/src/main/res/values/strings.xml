@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">জাগরণ</string>
+    <string name="log_in"><b>Log in</b></string>
+    <string name="visit"><b>Visit</b></string>
+    <string name="sign_up"><b>Sign up</b></string>
+    <string name="remember_me"><b>Remember me</b></string>
+    <string name="disease"><b>Disease and treatments</b></string>
+    <string name="peddy_btn"><b>ধান</b></string>
+    <string name="Wheat_btn"><b>গম</b></string>
+    <string name="vegetable_btn"><b>সবজি</b></string>
+    <string name="fruits_btn"><b>ফলমূল</b></string>
+    <string name="fish_btn"><b>মাছ</b></string>
+    <string name="bird_btn"><b>পশুপাখি</b></string>
+    <string name="pd1"><b>ধানের উফরা রোগ</b></string>
+    <string name="pd2"><b>ধানের টুংরো রোগ</b></string>
+    <string name="pd3"><b>ধানের পাতার লালচে রেখা রোগ</b></string>
+    <string name="pd4"><b>ধানের ব্লাস্ট রোগ</b></string>
+    <string name="pd5"><b>ধানের বাদামী রোগ</b></string>
+    <string name="pd6"><b>ধানের চারার ব্লাইট রোগ</b></string>
+    <string name="pdd"><b>ধানের রোগ</b></string>
+    <string name="pd1name"><b>রোগের নামঃ</b></string>
+    <string name="pd1n">ধানের উফরা রোগ Ufra Disease of Rice (Ditylenchus angustus) কৃমিজনিত রোগ।</string>
+    <string name="symptm"><b>লক্ষণঃ</b></string>
+    <string name="solve"><b>প্রতিকার</b></string>
+    <string name="wtd"><b>গমের রোগ</b></string>
+    <string name="wt1"><b>গোড়া পঁচা রোগ </b></string>
+    <string name="wt2"><b>গমের ব্লাস্ট রোগ</b></string>
+    <string name="wt3"><b>পাতা ঝলসানো রোগ</b></string>
+    <string name="wt4"><b>বীজে কালো দাগ রোগ</b></string>
+    <string name="wt5"><b>পাতার মরিচা রোগ</b></string>
+    <string name="wt6"><b>আলগা ঝুলা রোগ</b></string>
+    <string name="potato_btn"><b>আলু</b></string>
+    <string name="tomato_btn"><b>টমেটো</b></string>
+    <string name="begun_btn"><b>বেগুন</b></string>
+    <string name="law_btn"><b>সীম ও লাউ</b></string>
+    <string name="kumra_btn"><b>ঢেঁড়স ও কুমড়া</b></string>
+    <string name="morich_btn"><b>পেয়াজ ও মরিচ</b></string>
+
+    <string name="to1"><b>গোড়া ও মূল পচা </b></string>
+    <string name="to2"><b>টমেটোর বাক আই রোগ</b></string>
+    <string name="to3"><b>টমেটোর চারা ধ্বসা রোগ</b></string>
+    <string name="to4"><b>টমেটোর বুশি স্টান্ট রোগ</b></string>
+    <string name="to5"><b>পাতা কোকড়ানো রোগ</b></string>
+    <string name="tod"><b>টমেটোর রোগ</b></string>
+
+    <string name="po1"><b>আলুর আগাম ধ্বসা রোগ </b></string>
+    <string name="po2"><b>লেট ব্লাইট রোগ</b></string>
+    <string name="po3"><b>আলুর ঢলে পড়া রোগ</b></string>
+    <string name="po4"><b>আলুর দাদ বা স্ক্যাব রোগ</b></string>
+    <string name="po5"><b>আলুর পাতা মোড়ানো রোগ </b></string>
+    <string name="pod"><b>আলুর রোগ</b></string>
+
+    <string name="eg1"><b>বেগুনের ভাইরাসজনিত মোজাইক রোগ</b></string>
+    <string name="eg2"><b>বেগুনের হোয়াইট মোল্ড রোগ</b></string>
+    <string name="eg3"><b>বেগুনের কোনিফেরা ব্লাইট রোগ</b></string>
+    <string name="eg4"><b>বেগুনের পাতা ও ফলের দাগ রোগ</b></string>
+    <string name="eg5"><b>বেগুনের জাব পোকা</b></string>
+    <string name="egd"><b>বেগুনের রোগ</b></string>
+
+
+    <string name="shosw_btn"><b>শষ্য চাষ </b></string>
+    <string name="gobadi_btn"><b>গবাদি পশু পালন</b></string>
+    <string name="paki_btn"><b>পাখি পালন </b></string>
+    <string name="ffish_btn"><b>মাছ চাষ </b></string>
+    <string name="vgtt_btn"><b>সবজি চাষ </b></string>
+    <string name="tree_btn"><b>বৃক্ষ রোপন </b></string>
+    <string name="tips"><b>Tips</b></string>
+
+    <string name="rice_btn"><b>ধান চাষ</b></string>
+    <string name="gm_btn"><b>গম চাষ </b></string>
+    <string name="pat_btn"><b>পাট চাষ</b></string>
+    <string name="sunf_btn"><b>সূর্যমুখী চাষ </b></string>
+    <string name="akh_btn"><b>আখ চাষ </b></string>
+
+    <string name="goru_btn"><b>গরু পালন</b></string>
+    <string name="cagol_btn"><b>ছাগল পালন</b></string>
+    <string name="vera_btn"><b>ভেড়া পালন </b></string>
+    <string name="mohish_btn"><b> মহিষ পালন</b></string>
+    <string name="register"><b>Register</b></string>
+    <string name="login"><b>Login</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Not Signed In</string>
+    <string name="nav_header_subtitle">Email Address</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">My Orders</string>
+    <string name="menu_gallery">My Cart</string>
+    <string name="menu_slideshow">My wishlist</string>
+    <string name="my_account">My Account</string>
+
+
+</resources>

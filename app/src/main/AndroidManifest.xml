@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".cityfinder"
+            android:exported="true" />
+        <activity
+            android:name=".weathermain"
+            android:exported="true" />
+        <activity
+            android:name=".videos"
+            android:exported="true" />
+        <activity
+            android:name=".calender"
+            android:exported="true" />
+        <activity
+            android:name=".Weather"
+            android:exported="true" />
+        <activity
+            android:name=".forgotpass"
+            android:exported="true" />
+        <activity
+            android:name=".go_2"
+            android:exported="true" />
+        <activity
+            android:name=".go_1"
+            android:exported="true" />
+        <activity
+            android:name=".Go"
+            android:exported="true" />
+        <activity
+            android:name=".GM2"
+            android:exported="true" />
+        <activity
+            android:name=".ss_n_1"
+            android:exported="true" />
+        <activity
+            android:name=".ss_1"
+            android:exported="true" />
+        <activity
+            android:name=".ss"
+            android:exported="true" />
+        <activity
+            android:name=".tips"
+            android:exported="true" />
+        <activity
+            android:name=".eg_disease3"
+            android:exported="true" />
+        <activity
+            android:name=".eg_disease2"
+            android:exported="true" />
+        <activity
+            android:name=".eg_disease1"
+            android:exported="true" />
+        <activity
+            android:name=".eggplantdisease"
+            android:exported="true" />
+        <activity
+            android:name=".po_disease5"
+            android:exported="true" />
+        <activity
+            android:name=".po_disease4"
+            android:exported="true" />
+        <activity
+            android:name=".po_disease3"
+            android:exported="true" />
+        <activity
+            android:name=".po_disease2"
+            android:exported="true" />
+        <activity
+            android:name=".po_disease1"
+            android:exported="true" />
+        <activity
+            android:name=".potatodisease"
+            android:exported="true" />
+        <activity
+            android:name=".to_disease5"
+            android:exported="true" />
+        <activity
+            android:name=".to_disease4"
+            android:exported="true" />
+        <activity
+            android:name=".to_disease3"
+            android:exported="true" />
+        <activity
+            android:name=".to_disease2"
+            android:exported="true" />
+        <activity
+            android:name=".to_disease1"
+            android:exported="true" />
+        <activity
+            android:name=".tomato"
+            android:exported="true" />
+        <activity
+            android:name=".vegetable"
+            android:exported="true" />
+        <activity
+            android:name=".wt_disease6"
+            android:exported="true" />
+        <activity
+            android:name=".wt_disease5"
+            android:exported="true" />
+        <activity
+            android:name=".wt_disease4"
+            android:exported="true" />
+        <activity
+            android:name=".wt_disease3"
+            android:exported="true" />
+        <activity
+            android:name=".wt_disease2"
+            android:exported="true" />
+        <activity
+            android:name=".wt_disease1"
+            android:exported="true" />
+        <activity
+            android:name=".wheatdisease"
+            android:exported="true" />
+        <activity
+            android:name=".p_disease6"
+            android:exported="true" />
+        <activity
+            android:name=".p_disease5"
+            android:exported="true" />
+        <activity
+            android:name=".p_disease4"
+            android:exported="true" />
+        <activity
+            android:name=".p_disease3"
+            android:exported="true" />
+        <activity
+            android:name=".p_disease2"
+            android:exported="true" />
+        <activity
+            android:name=".p_disease1"
+            android:exported="true" />
+        <activity
+            android:name=".peddydisease"
+            android:exported="true" />
+        <activity
+            android:name=".disease"
+            android:exported="true" />
+        <activity
+            android:name=".visitpage"
+            android:exported="true" />
+        <activity
+            android:name=".signuppage"
+            android:exported="true" />
+        <activity
+            android:name=".logInpage"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
